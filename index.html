@@ -90,7 +90,9 @@ footer{border-top:1px solid var(--border);padding:40px 0;margin-top:40px}
 .foot-links{display:flex;gap:22px}
 .foot-links a:hover{color:var(--accent)}
 @media(max-width:600px){header{padding:64px 0 56px}section{padding:52px 0}.foot-inner{flex-direction:column;text-align:center}}
+.shots{display:grid;grid-template-columns:repeat(auto-fit,minmax(170px,1fr));gap:18px;max-width:920px}.shot{aspect-ratio:9/16;background:var(--surface);border:1px dashed var(--border);border-radius:20px;display:flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px;font-weight:600}
 </style>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg" />
 </head>
 <body>
 <nav>
@@ -159,6 +161,7 @@ footer{border-top:1px solid var(--border);padding:40px 0;margin-top:40px}
   </div>
 </section>
 
+<section id="screenshots"><div class="wrap"><div class="eyebrow">Preview</div><h2>See it in action</h2><p class="section-sub">Core screens from the Humbu app.</p><div class="shots"><div class="shot">Home</div><div class="shot">Catalog</div><div class="shot">Cart</div><div class="shot">Orders</div></div></div></section>
 <section id="stack">
   <div class="wrap">
     <div class="eyebrow">Under the Hood</div>
@@ -282,7 +285,7 @@ npm install
     <p class="section-sub">Honest snapshot of the repository as it currently exists.</p>
     <div class="status-row">
       <div class="status-item"><div class="k">Stage</div><div class="v">In development</div></div>
-      <div class="status-item"><div class="k">License</div><div class="v">Not yet specified</div></div>
+      <div class="status-item"><div class="k">License</div><div class="v">MIT</div></div>
       <div class="status-item"><div class="k">Contributions</div><div class="v">Open via pull request</div></div>
       <div class="status-item"><div class="k">Issues</div><div class="v">Tracked on GitHub</div></div>
     </div>
